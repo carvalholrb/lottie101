@@ -14,6 +14,7 @@
 		058642052264E99200D4E65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058642032264E99200D4E65A /* LaunchScreen.storyboard */; };
 		0586420F2264EEC400D4E65A /* notification-bell.json in Resources */ = {isa = PBXBuildFile; fileRef = 0586420D2264EEC400D4E65A /* notification-bell.json */; };
 		058642102264EEC400D4E65A /* notification.json in Resources */ = {isa = PBXBuildFile; fileRef = 0586420E2264EEC400D4E65A /* notification.json */; };
+		05864212226529DA00D4E65A /* RingBellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05864211226529DA00D4E65A /* RingBellViewController.swift */; };
 		3F72E98F5414234A4DEFA1E7 /* Pods_Lottie101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA96ED6AAB725BE85AF899C /* Pods_Lottie101.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		058642062264E99300D4E65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0586420D2264EEC400D4E65A /* notification-bell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "notification-bell.json"; sourceTree = "<group>"; };
 		0586420E2264EEC400D4E65A /* notification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notification.json; sourceTree = "<group>"; };
+		05864211226529DA00D4E65A /* RingBellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBellViewController.swift; sourceTree = "<group>"; };
 		2EA96ED6AAB725BE85AF899C /* Pods_Lottie101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BDDB251329EA04D4D47B80 /* Pods-Lottie101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie101/Pods-Lottie101.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3C453ED42CBFA5E75C9969 /* Pods-Lottie101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie101.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie101/Pods-Lottie101.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				058642012264E99200D4E65A /* Assets.xcassets */,
 				058642032264E99200D4E65A /* LaunchScreen.storyboard */,
 				058642062264E99300D4E65A /* Info.plist */,
+				05864211226529DA00D4E65A /* RingBellViewController.swift */,
 			);
 			path = Lottie101;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058641FD2264E99000D4E65A /* BellViewController.swift in Sources */,
+				05864212226529DA00D4E65A /* RingBellViewController.swift in Sources */,
 				058641FB2264E99000D4E65A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

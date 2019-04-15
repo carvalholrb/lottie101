@@ -126,17 +126,53 @@
         <!--Codigo-->
         <scene sceneID="QlU-lX-FaO">
             <objects>
-                <viewController title="Codigo" id="EeQ-gp-vEi" sceneMemberID="viewController">
+                <viewController title="Codigo" id="EeQ-gp-vEi" customClass="RingBellViewController" customModule="Lottie101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m81-ld-YW4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDD-89-otg">
+                                <rect key="frame" x="75" y="539" width="225" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.51372549020000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="o5b-qZ-fHh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="ANIMAR">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ringBell:" destination="EeQ-gp-vEi" eventType="touchUpInside" id="R17-Ov-t5d"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reminders" translatesAutoresizingMaskIntoConstraints="NO" id="bpG-3E-99w">
+                                <rect key="frame" x="82" y="249" width="211" height="168"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33333333329999998" green="0.33725490200000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MXA-RL-t8a" firstAttribute="bottom" secondItem="bpG-3E-99w" secondAttribute="bottom" constant="250" id="CdJ-7C-iZf"/>
+                            <constraint firstItem="MXA-RL-t8a" firstAttribute="trailing" secondItem="mDD-89-otg" secondAttribute="trailing" constant="75" id="KaG-xF-muM"/>
+                            <constraint firstItem="MXA-RL-t8a" firstAttribute="trailing" secondItem="bpG-3E-99w" secondAttribute="trailing" constant="82" id="MKX-sN-ms5"/>
+                            <constraint firstItem="bpG-3E-99w" firstAttribute="top" secondItem="MXA-RL-t8a" secondAttribute="top" constant="185" id="XQG-ol-9zb"/>
+                            <constraint firstItem="bpG-3E-99w" firstAttribute="leading" secondItem="MXA-RL-t8a" secondAttribute="leading" constant="82" id="XQY-nW-7If"/>
+                            <constraint firstItem="MXA-RL-t8a" firstAttribute="bottom" secondItem="mDD-89-otg" secondAttribute="bottom" constant="78" id="bPN-3j-HVA"/>
+                            <constraint firstItem="mDD-89-otg" firstAttribute="leading" secondItem="MXA-RL-t8a" secondAttribute="leading" constant="75" id="iiw-8m-C0q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MXA-RL-t8a"/>
                     </view>
+                    <connections>
+                        <outlet property="bellImageView" destination="bpG-3E-99w" id="51N-qD-6kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqJ-EA-uez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="553" y="-989"/>
+            <point key="canvasLocation" x="552.79999999999995" y="-989.05547226386818"/>
         </scene>
         <!--Lottie-->
         <scene sceneID="n7Y-xE-W60">
@@ -157,4 +193,7 @@
             <point key="canvasLocation" x="-1201" y="-570"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="reminders" width="77" height="93"/>
+    </resources>
 </document>
