@@ -1,0 +1,6 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'Lottie101' do
+  pod 'lottie-ios'
+end
