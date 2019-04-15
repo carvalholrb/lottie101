@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BellViewController.swift
 //  Lottie101
 //
 //  Created by Laura Carvalho on 4/15/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class BellViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
