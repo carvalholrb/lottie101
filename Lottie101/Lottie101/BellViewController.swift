@@ -40,4 +40,12 @@ final class BellViewController: UIViewController {
             bellAnimation.heightAnchor.constraint(equalToConstant: Constants.animationSide)
             ])
     }
+
+    @IBAction private func playAnimation(_ sender: UIButton) {
+        bellAnimation.play()
+    }
+
+    @IBAction private func stopAnimation(_ sender: UIButton) {
+        bellAnimation.stop()
+    }
 }

@@ -17,7 +17,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KeD-Cs-xLR">
+                                <rect key="frame" x="20" y="517" width="335" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gj-HQ-pH7">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="OKC-5Q-HeE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="▶️"/>
+                                        <connections>
+                                            <action selector="playAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="57p-wz-GaA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrR-1q-1dr">
+                                        <rect key="frame" x="167.5" y="0.0" width="167.5" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="mjf-OV-T76"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="⏹"/>
+                                        <connections>
+                                            <action selector="stopAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gfz-8C-fhB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KeD-Cs-xLR" secondAttribute="trailing" constant="20" id="X9s-tk-0EW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KeD-Cs-xLR" secondAttribute="bottom" constant="50" id="e3R-9Q-KRj"/>
+                            <constraint firstItem="KeD-Cs-xLR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oe7-Cr-WY5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
