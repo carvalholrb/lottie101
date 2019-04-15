@@ -12,6 +12,8 @@
 		058642002264E99000D4E65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058641FE2264E99000D4E65A /* Main.storyboard */; };
 		058642022264E99200D4E65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058642012264E99200D4E65A /* Assets.xcassets */; };
 		058642052264E99200D4E65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058642032264E99200D4E65A /* LaunchScreen.storyboard */; };
+		0586420F2264EEC400D4E65A /* notification-bell.json in Resources */ = {isa = PBXBuildFile; fileRef = 0586420D2264EEC400D4E65A /* notification-bell.json */; };
+		058642102264EEC400D4E65A /* notification.json in Resources */ = {isa = PBXBuildFile; fileRef = 0586420E2264EEC400D4E65A /* notification.json */; };
 		3F72E98F5414234A4DEFA1E7 /* Pods_Lottie101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA96ED6AAB725BE85AF899C /* Pods_Lottie101.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		058642012264E99200D4E65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058642042264E99200D4E65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058642062264E99300D4E65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0586420D2264EEC400D4E65A /* notification-bell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "notification-bell.json"; sourceTree = "<group>"; };
+		0586420E2264EEC400D4E65A /* notification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notification.json; sourceTree = "<group>"; };
 		2EA96ED6AAB725BE85AF899C /* Pods_Lottie101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BDDB251329EA04D4D47B80 /* Pods-Lottie101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie101/Pods-Lottie101.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3C453ED42CBFA5E75C9969 /* Pods-Lottie101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie101.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie101/Pods-Lottie101.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 		058641F92264E99000D4E65A /* Lottie101 */ = {
 			isa = PBXGroup;
 			children = (
+				0586420C2264EE8C00D4E65A /* Animations */,
 				058641FA2264E99000D4E65A /* AppDelegate.swift */,
 				058641FC2264E99000D4E65A /* BellViewController.swift */,
 				058641FE2264E99000D4E65A /* Main.storyboard */,
@@ -69,6 +74,15 @@
 				058642062264E99300D4E65A /* Info.plist */,
 			);
 			path = Lottie101;
+			sourceTree = "<group>";
+		};
+		0586420C2264EE8C00D4E65A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0586420D2264EEC400D4E65A /* notification-bell.json */,
+				0586420E2264EEC400D4E65A /* notification.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		4FDA112B938D89477FA2E3D4 /* Frameworks */ = {
@@ -149,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				058642052264E99200D4E65A /* LaunchScreen.storyboard in Resources */,
+				0586420F2264EEC400D4E65A /* notification-bell.json in Resources */,
+				058642102264EEC400D4E65A /* notification.json in Resources */,
 				058642022264E99200D4E65A /* Assets.xcassets in Resources */,
 				058642002264E99000D4E65A /* Main.storyboard in Resources */,
 			);
