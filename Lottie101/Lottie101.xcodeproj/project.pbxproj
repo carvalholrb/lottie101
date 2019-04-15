@@ -69,12 +69,11 @@
 			children = (
 				0586420C2264EE8C00D4E65A /* Animations */,
 				058641FA2264E99000D4E65A /* AppDelegate.swift */,
-				058641FC2264E99000D4E65A /* BellViewController.swift */,
-				058641FE2264E99000D4E65A /* Main.storyboard */,
 				058642012264E99200D4E65A /* Assets.xcassets */,
-				058642032264E99200D4E65A /* LaunchScreen.storyboard */,
 				058642062264E99300D4E65A /* Info.plist */,
-				05864211226529DA00D4E65A /* RingBellViewController.swift */,
+				058642032264E99200D4E65A /* LaunchScreen.storyboard */,
+				058641FE2264E99000D4E65A /* Main.storyboard */,
+				05D7072E22652DC100655B31 /* ViewControllers */,
 			);
 			path = Lottie101;
 			sourceTree = "<group>";
@@ -86,6 +85,15 @@
 				0586420E2264EEC400D4E65A /* notification.json */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		05D7072E22652DC100655B31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				058641FC2264E99000D4E65A /* BellViewController.swift */,
+				05864211226529DA00D4E65A /* RingBellViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		4FDA112B938D89477FA2E3D4 /* Frameworks */ = {
